@@ -1,12 +1,15 @@
 {
     "carnivores" : [
     {
-        "name":""
+        "animal":"lion"
 
     },{
+        "animal":"shark"
+    },{
+        "animal":"tiger"
 
     },{
-
+        "animal":"eagle"
     }
-]
+    ]
 }
