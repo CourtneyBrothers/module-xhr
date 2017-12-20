@@ -1,7 +1,9 @@
+"use strict";
+
 const animal = require("./animal");
 
 function showCarnivores(carnivores) {
-  // code that takes the carnovores array and displays it to the DOM
+  let output = document.getElementById("output").innerHTML = carnivores;
 }
 
 function showHerbivores() {}
