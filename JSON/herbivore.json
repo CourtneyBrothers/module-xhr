@@ -2,14 +2,14 @@
     "herbivores" :
             [
                 {
-                    "animal" : "elephant"
+                    "animals" : "elephant"
                 },{
-                    "animal": "manatee"
+                    "animals": "manatee"
 
                 },{
-                    "animal":"goat"
+                    "animals":"goat"
                 },{
-                    "animal":"cow"
+                    "animals":"cow"
                 }
 
     
