@@ -25,12 +25,13 @@ module.exports.loadCarnivores = function(callbackToInvoke) {
   loader.send();
 //where should the GET be?
   loader.addEventListener("load", function() {
-      console.log("what is happening");
+
 
     // Set the value of the private array
     
     carnivores = JSON.parse((event.target.responseText));
-    console.log("event target", event.target);
+    console.log("event target", event.target.responseText);
+    console.log("carnivores",carnivores);
     
     callbackToInvoke(carnivores);
     // Now exeute the callback function (`callbackToInvoke`) so that the caller knows that the process is complete. Make sure to pass the carnivore array as an argument.
