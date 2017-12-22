@@ -1,0 +1,18 @@
+{
+    "herbivores" :
+            [
+                {
+                    "animal" : "elephant"
+                },{
+                    "animal": "manatee"
+
+                },{
+                    "animal":"goat"
+                },{
+                    "animal":"cow"
+                }
+
+    
+                ]
+            
+            }
